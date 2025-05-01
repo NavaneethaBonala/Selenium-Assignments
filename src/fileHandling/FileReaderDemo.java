@@ -20,7 +20,7 @@ public class FileReaderDemo {
 	public static void main(String[] args) throws IOException {
 		
 //		String path ="/javaBasics/src/fileHandling/TestData";
-		String path ="D:\\eclipse-workspace\\Selenium Edureka\\javaBasics\\src\\fileHandling\\TestData";
+		String path ="E:\\eclipse-workspace\\EdurekaJavaBasics\\src\\fileHandling\\TestData";
 		FileReader reader = new FileReader(path);
 		
 //		System.out.println((char)reader.read());
@@ -34,7 +34,7 @@ public class FileReaderDemo {
 		reader.close();
 		
 		
-		String path1 ="D:\\eclipse-workspace\\Selenium Edureka\\javaBasics\\src\\fileHandling\\TestData2";
+		String path1 ="E:\\eclipse-workspace\\EdurekaJavaBasics\\src\\fileHandling\\TestData2";
 		
 		FileWriter writer= new FileWriter(path1);
 		FileReader reader1 = new FileReader(path1);
